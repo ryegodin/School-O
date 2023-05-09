@@ -72,12 +72,12 @@ class Database:
 
 
 ## Database Info
-hostname = 's-bsc-uiorprd2a.nrn.NRCan.gc.ca'
+hostname = '*****'
 port = '****'
 user = 'reader'
-password = '****'
-service = '***'
-service_name = 'GEODB.NRCan.gc.ca'
+password = '*****'
+service = '*****'
+service_name = '****.NRCan.gc.ca'
 
 # Connection Initialization
 db = Database(hostname, port, user, password, service_name)
